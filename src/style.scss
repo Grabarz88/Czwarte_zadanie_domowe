@@ -1,0 +1,286 @@
+body{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
+    //-------------------------------Element dotyczacy strony rejestracji---------------------//
+    div{
+        &.registration_box{
+        background-color: blanchedalmond;
+        width: 550px;
+        height: 700px;
+        margin-top: 50px;
+        padding-top: 50px;
+        padding-left: 75px;
+        
+            div{
+             &.registration_box_row{
+                width: 400px;
+                height: 100px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                div{
+                    &.registration_box_element_left{
+                        align-self: flex-start;
+                        width: 150px;
+                        height: 100px;
+
+                    }
+                    &.registration_box_element_right{
+                        align-self: flex-end;
+                        width: 250px;
+                        height: 100px;
+                       
+
+                    }
+                }    
+            }
+    
+            }   
+        
+        }
+    }
+    button{
+        &.Register_applying{
+            margin-left: 300px;
+        }
+    }
+
+
+    //--------------------------Element dotyczacy strony logowania ------------------------//
+    div{
+        &.logging_box{
+            background-color: brown;
+            width: 500px;
+            min-height: 300px;
+            max-height: 300px;
+            margin-top: 100px;
+            padding-top: 100px;
+            div {
+                &.logging_box_row{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                margin-left: 50px;
+                margin-right: 75px;
+                    div{
+                        &.logging_box_element_right{
+                        padding-top: 10px;  
+                        }
+                    }
+                }
+                &.button_container{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: nowrap;
+                    justify-content: space-between;
+                    align-items: center;
+                    width: 400px;
+                    height: 75px;
+                    margin-top: 50px;
+                    margin-left: 50px;
+                    button{
+                        &.Register_from_login{
+                        align-self: flex-start;
+                        width: 150px;
+                        height: 75px; 
+                        }
+                        &.Login{
+                        align-self: flex-end;
+                        width: 100px;
+                        height: 75px;
+                        }
+                        
+                    }
+                }
+            }
+            
+        
+
+
+
+        }
+    }
+    //--------------------------------------------------------Element dotyczacy strony uzytkownika---------------------------------//
+    div{
+        &.user_page_global{
+            background-color: #1e6262;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 100%;
+            width: 100%;
+            div{
+                &.user_page_info{
+                    align-self: flex-start;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap; 
+                    height: 800px;
+                    min-width: 300px;
+                    max-width: 400px;
+                    background-color: #2d767f;
+                    margin-left: 10px;
+                    margin-top: 10px;
+                    div{
+                        // &.window_title{
+                        //     background-color: #b4f1f1;
+                        //     border: 1px solid;
+                        //     margin-top: 10px;
+                        //     margin-left: 30px;
+                        //     padding: 5px 0px 5px 5px;
+                        //     width: 100px;
+                        //     height: 50px;
+                        // }
+                        &.window_title_username{
+                            background-color: #b4f1f1;
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 30px;
+                            padding: 0px 0px 20px 5px;
+                            width: 100px;
+                            height: 25px;
+                        }
+                        &.window_title_first_name{
+                            background-color: #b4f1f1;
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 30px;
+                            padding: 0px 0px 20px 5px;
+                            width: 100px;
+                            height: 25px;
+                        }
+                        &.window_title_last_name{
+                            background-color: #b4f1f1;
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 30px;
+                            padding: 0px 0px 20px 5px;
+                            width: 100px;
+                            height: 25px;
+                        }
+                        &.window_title_email{
+                            background-color: #b4f1f1;
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 30px;
+                            padding: 0px 0px 20px 5px;
+                            width: 75px;
+                            height: 25px;  
+                        }
+                        &.window_title_last_wrong_password{
+                            background-color: #b4f1f1;
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 30px;
+                            padding: 0px 0px 20px 5px;
+                            width: 200px;
+                            height: 25px;
+                        }
+                        &.window_title_animation_choose{
+                            background-color: #b4f1f1;
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 30px;
+                            padding: 0px 0px 20px 5px;
+                            width: 200px;
+                            height: 25px;
+                        }
+                        &.window_variable{
+                            background-color: #ecfffb;
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 20px;
+                            padding: 12px 0px 0px 20px;
+                            width: 200px;
+                            height: 50px;
+                            font-size: 20px;
+                            font-family: verdana;
+                        }
+                    }
+                    select{
+                        &.animation_chooser{
+                            border: 1px solid;
+                            margin-top: 10px;
+                            margin-left: 35px;
+                            width: 75px;
+                            height: 25px;
+                        }
+                    }
+                    button{
+                        &.animation_submit{
+                            width: 70px;
+                            height: 25px;
+                            margin-left: 175px;
+                        }
+                    }
+                    
+                }
+                &.user_page_animation_window{
+                    align-self: flex-end;
+                    margin: 200px 750px 300px 50px;
+                    min-height: 400px;
+                    max-height: 400px;
+                    max-width: 400px;
+                    min-width: 400px;
+                    background-color: lightgray;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    div{
+                        &.to_animate{
+                        height: 125px;
+                        width: 125px; 
+                        background-color: #85203b; 
+                        }
+                        &.animated1{
+                            animation-name: animation1; 
+                            animation-duration: 3s; 
+                            animation-iteration-count: infinite; 
+                            transition: 0.2s;
+                            @keyframes animation1 { 
+                                0% { background-color: #85203b; }
+                                16% { background-color: #cb3b3b; }
+                                32% { background-color: #e0c45c; }
+                                50% { background-color: #fff98c; }
+                            } 
+                        }
+                        &.animated2{
+                            animation-name: animation2; 
+                            animation-duration: 5s; 
+                            animation-iteration-count: infinite; 
+                            transition: 0.2s;
+                            @keyframes animation2 { 
+                                0% { transform: rotate(0deg); }
+                                50% { transform: rotate(180deg); }
+                                100% { transform: rotate(360deg); }
+                            }
+                        }
+                        &.animated3{
+                            animation-name: animation3; 
+                            animation-duration: 6s; 
+                            animation-iteration-count: infinite; 
+                            transition: 0.2s;
+                            @keyframes animation3 { 
+                                0% { transform: scaleX(1) scaleY(1); }
+                                25% { transform: scaleX(1) scaleY(3); }
+                                50% { transform: scaleX(1) scaleY(1); }
+                                75% { transform: scaleX(3) scaleY(1); }
+                                100% { transform: scaleX(1) scaleY(1); }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+    }
+}
+
